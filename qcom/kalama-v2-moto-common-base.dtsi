@@ -43,8 +43,6 @@
 	};
 };
 
-/delete-node/ &mem_offline;
-
 &apps_smmu {
 	/delete-property/ dma-coherent;
 };
