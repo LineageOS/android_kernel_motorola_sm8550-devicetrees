@@ -1,6 +1,7 @@
 #include "bengal-gpu.dtsi"
 
 &msm_gpu {
+	qcom,gpu-model = "Adreno610v2";
 	qcom,chipid = <0x06010001>;
 
 	qcom,bus-table-ddr =

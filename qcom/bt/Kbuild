@@ -19,6 +19,10 @@ ifeq ($(CONFIG_ARCH_CROW),y)
 dtbo-y += crow-bt.dtbo
 endif
 
+ifeq ($(CONFIG_ARCH_TRINKET), y)
+dtbo-y += trinket-bt-v1.dtbo
+endif
+
 always-y        := $(dtb-y) $(dtbo-y)
 subdir-y        := $(dts-dirs)
 clean-files     := *.dtb *.dtbo
