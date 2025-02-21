@@ -654,15 +654,6 @@
 	qcom,mdss-dsi-bl-pmic-control-type = "bl_ctrl_dcs";
 };
 
-&dsi_sim_sec_hd_cmd {
-	qcom,panel-supply-entries = <&dsi_panel_pwr_supply_sim>;
-	qcom,panel-sec-supply-entries = <&dsi_panel_pwr_supply>;
-	qcom,mdss-dsi-bl-pmic-control-type = "bl_ctrl_dcs";
-	qcom,mdss-dsi-sec-bl-pmic-control-type = "bl_ctrl_dcs";
-	qcom,mdss-dsi-bl-min-level = <1>;
-	qcom,mdss-dsi-bl-max-level = <1023>;
-};
-
 &qupv3_se4_spi {
     goodix-berlin@0 {
         panel = <&mot_csot_nt37701A_667_curve_1080x2400_dsc_cmd
