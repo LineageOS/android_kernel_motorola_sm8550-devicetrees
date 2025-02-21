@@ -23,6 +23,7 @@
 	qcom,bt-reset-gpio = <&tlmm 99 0>; /* BT_EN */
 	qcom,bt-sw-ctrl-gpio = <&tlmm 37 0>; /* SW_CTRL */
 	qcom,wl-reset-gpio = <&tlmm 36 0>; /* WL_EN */
+	tsens = "sys-therm-3";
 
 	qcom,bt-vdd-io-supply = <&L7B>;  /* IO */
 	qcom,bt-vdd-aon-supply = <&S3B>;
